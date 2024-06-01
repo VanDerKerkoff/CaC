@@ -10,6 +10,7 @@
     <meta name="keywords"
         content="HTML, CSS, JS, ISEN, INGRESO AL ISEN, CURSOS ECONOMIA, CANCILLERIA ARGENTINA, RELACIONES EXTERIORES, DIPLOMACIA, SERVICIO EXTERIOR DE LA NACION, INSTITUTO DEL SERVICIO EXTERIOR DE LA NACION, CURSO DE INGRESO AL ISEN, CLASES DE ECONOMIA Y COMERCIO INTERNACIONAL">
     <link rel="shortcut icon" href="images\favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -24,7 +25,7 @@
 
         <nav class="navbar navbar-expand-lg bg-dark fixed-top container">
             <div class="container">
-                <a class="navbar-brand" href=""heroe">INGRESO AL ISEN - ECONOMIA</a>
+                <a class="navbar-brand" href="index.html">INGRESO AL ISEN - ECONOMIA</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +40,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contacto">CONTACTO</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/login.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/api.html">API</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +59,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h1>
-                        Preparamos el Examen de Economía para el Concurso de Ingreso al ISEN
+                        Preparamos el Examen de Economía para el Concurso de Ingreso al ISEN desde 2007
                     </h1>
                     <a type="button" class="btn btn-outline-secondary centrado" href="#propuesta">CONOCENOS</a>
 
@@ -64,13 +71,13 @@
             </div>
         </section>
 
-        <section class="margen" id="propuesta">
+        <section class="margen h-100" id="propuesta">
             <h2 class="primera_linea"> PROPUESTA</h2>
             <div class="row">
                 <div class="col-sm-6">
 
 
-                    <div class="card mt-4 mb-4" style="max-width: 540px;">
+                    <div class="card h-80 mt-4 mb-4" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-7">
                                 <img src="images\aula.jpg" class="img-fluid rounded-start"
@@ -79,8 +86,7 @@
                             <div class="col-md-5">
                                 <div class="card-body">
                                     <h5 class="card-title">NUESTROS CURSOS</h5>
-                                    <p class="card-text">Preparamos el examen de Economía desde 2007, con resultados muy
-                                        superiores a la media.</p>
+                                    <p class="card-text">Resultados muy superiores a la media del examen de Economía.</p>
                                     <!-- <a href="cursos.html" class="btn btn-outline-secondary centrado">Ver más</a> -->
                                     <a type="button" tabindex="0" class="btn btn-outline-secondary centrado" role="button" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="CLASES VIRTUALES GRUPALES" data-bs-content="Clases en grupos de 10 alumnos como máximo. Consta de 26 clases de 2 hs y media aproximadamente. Grupo 1: lunes 19 hs. Grupo 2: miércoles 19 hs. Grupo 3: viernes 19 hs. Inicio: primera semana de marzo.">Más Info</a>
                                 </div>
@@ -92,11 +98,11 @@
                 </div>
                 <div class="col-sm-6">
 
-                    <div class="card mt-4 mb-4" style="max-width: 540px;">
+                    <div class="card h-80 mt-4 mb-4" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-7">
                                 <img src="images\team.jpg" class="img-fluid rounded-start"
-                                    alt="Palacio San Martín" loading="lazy">
+                                    alt="Team Work" loading="lazy">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body">
@@ -116,12 +122,12 @@
 
             </div>
         </section>
-        <section class="margen" id="contacto">
+        <section class="margen" id="contacto" style="font-size: 0.25rem";>
             <h2 class="primera_linea"> CONTACTO</h2>
             <div class="row">
                 <div class="col-lg-6">
 
-                    <form action="#" method="POST">
+                    <form>
                         <div class="mb-3">
                             <label for="nombre" class="form-label"></label>
                             <input type="text" class="form-control" id="nombre" required placeholder="Nombre"
@@ -173,6 +179,8 @@
                             ISEN 2024
                         </p>
 
+                       
+
                     </div>
                 </div>
 
@@ -183,8 +191,7 @@
     <footer class="d-flex flex-wrap justify-content-between align-items-center my-4 border-top container">
         <div class="col-lg-6 col-md-6">
             <div class="footer__copyright__text">
-                <span class="mb-md-0 text-muted align-items-left">© 2024 Todos los derechos reservados. Made by Van Der Kerkoff
-                    with
+                <span class="mb-md-0 text-muted align-items-left">© 2024 Made by Van Der Kerkoff with
                     <span><i class="bi-lightning-fill"></i> </span></span>
 
             </div>

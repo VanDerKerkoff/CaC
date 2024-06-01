@@ -5,8 +5,8 @@
 }
 
 .navbar-brand {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
-  color: white !important;
+  font-family: "Roboto", sans-serif !important;
+  color: rgb(197, 196, 196) !important;
   font-size: 2.5rem !important;
   padding-left: 0.5rem;
 }
@@ -20,8 +20,8 @@
 }
 
 .nav-link {
-  color: white !important;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  color: rgb(197, 196, 196) !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 1.5384615385rem !important;
 }
 .nav-link:hover {
@@ -33,7 +33,7 @@
 }
 
 #heroe h1 {
-  color: white;
+  color: rgb(197, 196, 196);
   margin-top: 1rem;
 }
 #heroe p {
@@ -103,12 +103,12 @@
 
 body {
   background-color: black !important;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 main {
   font-size: 1.25rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgb(197, 196, 196);
   background-color: black !important;
 }
@@ -156,7 +156,7 @@ ul li {
 }
 
 .card-body {
-  color: white !important;
+  color: rgb(197, 196, 196) !important;
   text-align: center;
 }
 
@@ -172,14 +172,14 @@ ul li {
 
 .popover-body {
   background-color: rgb(223, 220, 220);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 1rem !important;
 }
 
 .popover-header {
   background-color: black !important;
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  color: rgb(197, 196, 196);
+  font-family: "Roboto", sans-serif !important;
   transform: none !important;
 }
 
@@ -192,7 +192,7 @@ input {
   font-size: 1.25rem !important;
   border: solid 1px rgb(70, 36, 70);
   margin: 0 !important;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: black !important;
   padding: 8px !important;
   border-radius: 5px;
@@ -202,10 +202,19 @@ textarea {
   font-size: 1.25rem !important;
   border: solid 1px rgb(70, 36, 70);
   margin: 0.1em;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: black !important;
   padding: 8px;
   border-radius: 5px;
+}
+
+.enlace {
+  color: rgb(197, 196, 196);
+  text-decoration: none;
+}
+
+.enlace:hover {
+  color: gray;
 }
 
 .primera_linea {
@@ -266,6 +275,7 @@ footer.btn {
   }
 }
 @media (max-width: 767px) {
+  /* Celular */
   .navbar-brand {
     font-size: 1.65rem !important;
     padding: 0.3rem;
@@ -296,8 +306,9 @@ footer.btn {
 @media (max-width: 361px) {
   /* Celular */
   .navbar-brand {
-    font-size: 1.12rem !important;
+    font-size: 1.5rem !important;
     padding: 0.3rem;
   }
 }
 
+/*# sourceMappingURL=estilos.css.map */

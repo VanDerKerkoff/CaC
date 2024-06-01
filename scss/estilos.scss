@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-    color: white !important;
+    color: $color_barra !important;
     font-family: $tipo_de_letra !important;
     font-size: calc($tamano-h1 / 3.25) !important;
 
@@ -180,7 +180,6 @@ ul li {
     font-weight: normal;
     padding-bottom: 0.5rem;
 }
-
 .popover-body {
     background-color: rgb(223, 220, 220);
     font-family: $tipo_de_letra !important;
@@ -219,6 +218,15 @@ textarea {
     border-radius: 5px;
 }
 
+.enlace {
+    color: $color_texto;
+    text-decoration: none;
+}
+
+.enlace:hover{
+    color: $nav_hover_color;
+}
+  
 .primera_linea {
     margin-top: 15px;
 }
